@@ -1,0 +1,112 @@
+
+
+body {
+  background-image: url;
+  background-color:;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+
+@media(max-width: 768px)
+{
+    .responsive{
+        height:410px;    }
+}
+.aligncenter {
+  text-align: left;
+}
+div {
+  border: 3px solid black;
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  background-color: #ccc;
+}
+img {
+  width: 15%;
+  float: left;
+  height: 110px;
+}
+form {
+  text-align: center;
+    color:blue;
+    
+}
+
+div:hover {
+  background-color: khaki;
+}
+form:required {
+  color: blanchedalmond;
+}
+
+.address {
+  text-align: center;
+  color:dimgray;
+}
+table {
+  table-layout: auto;
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+.textOverImage{
+    width:200px;
+    height:200px;
+    display:inline-block;
+    background-size:cover;
+    border-radius:4px;
+    margin:4px;
+    position:relative;
+    cursor:pointer;
+    overflow:hidden;
+  }
+  
+  .textOverImage input{
+    display:none;
+  }
+  
+  .textOverImage div,.textOverImage h2{
+    position:absolute;
+    background-color:rgba(255,255,255,0.8);
+    bottom:20px;
+    left:4px;
+    right:4px;
+    border-radius:4px;
+    padding:8px;
+    overflow:hidden;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .textOverImage:hover h2,.textOverImage input:checked + h2 + div{
+    bottom:4px;
+    opacity:1;
+  }
+  
+  .textOverImage input:checked + h2{
+    bottom:-20px;
+    opacity:0;
+  }
+  
+  .textOverImage h2{
+    margin:0;
+  }
+#header1 {
+  background-color:cornflowerblue;
+    table-layout: auto;
+    height: 50px;
+}
+.matter {
+  background-color: cornsilk;
+}
+p{
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bolder;
+}
