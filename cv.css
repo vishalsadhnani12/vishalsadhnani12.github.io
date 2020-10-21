@@ -1,0 +1,70 @@
+.intro h1{text-align: center; font-weight: 100;}
+.intro h2{text-align: center;
+margin-top:-30px;}
+.heading .first  h2{
+    border-top:1px solid #ccc; line-height: 24px; border-bottom: 1px solid #ccc;
+    text-align: center;text-transform: uppercase;}
+#ft { padding: 0 0 0 0; 
+    font-size: 100%;
+    border-top: 1px solid #ccc; 
+    text-align: center; }
+
+a#pdf { display: inline-block;
+    float: ; 
+    background: #666;
+    color: white; 
+    padding:6px 50px 6px 12px; 
+    margin-bottom: 6px;   }
+a#pdf:hover { background: #222; }
+
+body {margin:-80px 0px 0px 40px;
+    font-family: Georgia; 
+    color: #444; 
+text-align: center;
+}
+.last { 
+    border: none; }
+.talent { width: 25%; float: left;list-style: none; padding: 20px; border-right: 1px solid #ccc;overflow:;text-align: center; }
+.new{width: 25%; float: left;list-style: none; padding: 20px; border-right: 1px solid #ccc;text-align: center;}
+h2 { font-size: 152% }
+h3, h4 { font-size: 122%; }
+h1, h2, h3, h4 { color: #333; }
+p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+a { color: #990003 }
+a:hover { text-decoration: none; }
+strong { font-weight: bold; }
+li { line-height: 24px; border-bottom: 1px solid #ccc; }
+#hd { margin: 2.5em 0 3em 0; padding-bottom: 1.5em; border-bottom: 1px solid #ccc }
+#hd h2 { text-transform: uppercase; letter-spacing: 2px; }
+#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
+#inner { padding:0px 0px; margin: 80px auto; background: #f5f5f5; border: solid #666; border-width: 5px }
+.heading { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 0px solid #ccc; width:80.2%; }
+
+.contact-info { margin-top: 7px; }
+.first h2 { font-style: italic; }
+.last { border-bottom: 0 }
+.study { position:; margin-bottom: ;float:; padding-bottom: 4px; border-bottom: 1px solid #ccc; }
+.study h5 { float:right ;  }
+.study h3{font-family: cursive;}
+.study h4{font-weight: 400;}
+
+.study p { margin: 0.75em 0 2em 0; }
+#bd{padding-left: 180px;}
+
+
+    
+@media(max-width: 780px){
+    body{margin:auto;}
+    .individual{margin-bottom:-200px;}
+    .talent{ width: 100%; float:none; overflow:hidden ; border: 1px solid #ccc;margin: auto;padding: 0px;}
+    .new {width: 100%; float:none; overflow:hidden ; border: 1px solid #ccc;margin: auto;padding: 0px;}   .talent h3{text-align: center;}
+    .edit{margin-bottom: -180px;
+    }
+ 
+    }
+    #bd{padding-left: 100px;}
+    body{
+    float:none;
+    text-align:center;
+    width:95%;
+  }
