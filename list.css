@@ -1,0 +1,190 @@
+body {
+  margin: 10px auto;
+  min-width: 250px;
+  max-width: 50%;
+  background-color: silver;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  overflow: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 80px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+
+ 
+}
+
+/* Set zebra-stripes: all odd list items to a different color */
+ul li:nth-child(odd) {
+background: #f9f9f9;
+}
+ul li:hover {
+  background: #ddd;
+}
+ul li.checked {
+  background: teal;
+  color: white;
+}
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: crimson;
+  color: white;
+}
+.header {
+  background-color: #2982b5;
+  padding: 30px 50px 80px 50px;
+  color: white;
+  text-align: center;
+}
+
+#myInput {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+.addBtn:hover {
+  background-color: #bbb;
+}
+#clear-list{
+  width: 30%;
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  font-family: "Times New Roman";
+  margin: 40px 35%;
+  background-color: darkblue;
+  color: white;
+}
+#clear-list:hover{
+  background-color: blue;
+  color: white;
+}
+
+.list-item {
+  text-decoration: none;
+  color: #fafafa;
+  cursor: pointer;
+  background: #353239;
+  border: 1px solid #423e47;
+  margin: 1.6rem 0;
+  padding: 1rem 1.6rem;
+  display: block;
+  transition: background .3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.list-item__container {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 300;
+  align-items: baseline;
+}
+
+.list-item__container > *:first-child {
+  margin-right: .8rem;
+}
+
+.list-item:hover {
+  background: #3d3941;
+}
+
+.button {
+  background: #7044a0;
+  border: none;
+  border-bottom: 2px solid #603a88;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding: .8rem;
+  transition: background .3s ease, color .3s ease;
+}
+
+.button:hover {
+  background: #5F3A87;
+}
+
+.button--secondary {
+  background: #888888;
+  border-bottom: 2px solid #717171;
+}
+
+.button--secondary:hover {
+  background: #6E6E6E;
+}
+
+.button--text {
+  background: none;
+  border: none;
+  color: #aaa;
+}
+
+.button--text:hover {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.list-title {
+  margin: 3.2rem 0 1.6rem;
+}
